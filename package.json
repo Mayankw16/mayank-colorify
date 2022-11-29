@@ -1,0 +1,31 @@
+{
+  "name": "mayank-colorify",
+  "version": "1.0.0",
+  "description": "A library to colorify your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayankw16/mayank-colorify.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Mayank Wadhwani <mayankbestbro@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mayankw16/mayank-colorify/issues"
+  },
+  "homepage": "https://github.com/Mayankw16/mayank-colorify#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
